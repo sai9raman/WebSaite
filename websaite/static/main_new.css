@@ -1,0 +1,17 @@
+h1.home-title {
+	color:red;
+	font-size:36px;
+	text-align:center;
+	text-decoration:underline;
+}
+a {
+	color:black;
+}
+
+a:visited {
+	color:green;
+}
+
+a:hover {
+	color:blue;
+}

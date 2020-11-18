@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+	<h1>My List of Birthdays</h1>
+	<br>
+	{% for record in records %}
+		<h3><a class="article-title" href="{{ url_for('update_record', record_id=record.id) }}" > {{ record.birthday_name }} -> {{ record.birthday_date.strftime('%B %d') }} </a></h3>
+		<h5><small class="text=muted"><a href="{{ url_for('delete_record', record_id=record.id) }}" style="color:#FF0000;">Delete</a></small> </h5>
+		<br>
+	{% endfor %}
+{% endblock content %}
