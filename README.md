@@ -1,6 +1,5 @@
-# Sai Raman Website
+# Birthday Calender Website
 
-Trying to build my website ground up using flask 
+A simple flask website to store and retrieve event dates to serve as reminders 
 
-Also plan on incorporating the Birthday Calendar App within this website
 
